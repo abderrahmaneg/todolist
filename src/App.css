@@ -36,8 +36,25 @@
   color: rgb(14, 57, 177);
   font-weight:500;
   font-size:17px;
+  cursor: pointer;
+
 }
 .inputadd button:hover{
   background-color: rgb(9, 143, 143);
+
+}
+.App ul li {
+  list-style-type:"✅";
+  cursor: pointer;
+}
+.App .done{
+   text-decoration:line-through;
+}
+
+.App span {
+  color: red;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
 
 }
